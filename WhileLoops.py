@@ -2,10 +2,11 @@
 
 num = 34
 
-start = str(input("Would you like to begin? (y/n)"))
+print("----WELCOME TO NUMBER GUESSER----")
+start = str(input("Would you like to begin? (y/n) "))
 
 while start == "y":
-    guess = int(input("Guess the number between 1-100."))
+    guess = int(input("Guess the number between 1-100. "))
     if guess == num:
         print("WELL DONE CORRECT!")
         break
