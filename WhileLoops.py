@@ -3,14 +3,9 @@
 num = 34
 
 print("----WELCOME TO NUMBER GUESSER----")
-start = str(input("Would you like to begin? (y/n) "))
+guess = 0
 
-while start == "y":
+while guess != num:
     guess = int(input("Guess the number between 1-100. "))
-    if guess == num:
-        print("WELL DONE CORRECT!")
-        break
-    elif guess < num:
-        print("HIGHER")
-    else:
-        print("LOWER")
+   
+print("WELL DONE")
