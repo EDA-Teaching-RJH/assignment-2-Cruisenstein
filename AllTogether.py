@@ -4,9 +4,9 @@ import random
 list = random.sample(range(1, 100), 10)
 result = []
 
-for n in list:
-    while n % 2 != 0:
-        result.append(n)
+for i in list:
+    while i % 2 != 0:
+        result.append(i)
         break
 
 print(result)
